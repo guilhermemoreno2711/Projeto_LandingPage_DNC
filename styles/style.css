@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "Inter",sans-serif;
+
+    
+}
+
+.menu{
+    background-color: #303030;
+  
+    color: white;
+    padding: 10%;
+    
+}
+#titulo_menu{
+    font-size: 50px;
+    
+}
+#subtitulo_menu{
+    font-size: 15px;
+}
+
+#informacoes_empresa{
+    background-color:#EAECE5 ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 35px;
+    padding-left: 150px;   
+    
+    
+}
+#titulo_informacao{
+padding-right: 15px;
+font-size: 30px;
+
+}  
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+
+#titulo_container{
+    font-size: 32px;
+    margin-left: 40px;    
+
+}
+#paragrafo_container{
+    font-size: 20px;
+    margin-left: 40px;
+}
+#imagem{
+   margin:20px 0px 20px 0px;
+}
+
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+   
+    
+
+}
+#titulo_formulario{
+    color: white;
+    padding: 50px;
+}
+input{
+    width: 350px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+button{
+    background-color: #C07212;
+    width: 250px;
+    height:45px;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 40px;
+}
